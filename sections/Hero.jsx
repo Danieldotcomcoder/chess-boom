@@ -8,7 +8,7 @@ const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
       variants={staggerContainer}
-      initial="hiddern"
+      initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
@@ -22,8 +22,8 @@ const Hero = () => (
           Metaverse
         </motion.h1>
         <motion.div
-          variants={textVariant(1.1)}
-          className="flex flex-row jusitfu-ccenter items-center"
+          variants={textVariant(1.2)}
+          className="flex flex-row jusitfy-ccenter items-center"
         >
           <h1 className={styles.heroHeading}>Ma</h1>
           <div className={styles.heroDText} />
@@ -35,7 +35,7 @@ const Hero = () => (
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div
-          className="absoulte w-full h-[-300px] hero-gradient rounded-top-[140px] z-[0] -top-[30px]"
+          className="absolute w-full h-[-300px] hero-gradient rounded-t1-[140px] z-[0] -top-[30px]"
         />
         <img
           src="/cover.png"
