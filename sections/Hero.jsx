@@ -16,18 +16,16 @@ const Hero = () => (
       <div
         className="flex justify-center items-center flex-col relative z-10"
       >
-        <motion.h1 variants={textVariant(1.1)}
+        <motion.h1 variants={textVariant(0.7)}
           className={styles.heroHeading}
         >
-          Metaverse
+          Chess
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row jusitfy-ccenter items-center"
         >
-          <h1 className={styles.heroHeading}>Ma</h1>
-          <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>Ness</h1>
+          <h1 className={styles.heroHeading}>BOOM</h1>
         </motion.div>
       </div>
       <motion.div
@@ -38,7 +36,7 @@ const Hero = () => (
           className="absolute w-full h-[-300px] hero-gradient rounded-t1-[140px] z-[0] -top-[30px]"
         />
         <img
-          src="/cover.png"
+          src="/chessboard.jpg"
           alt="cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
