@@ -15,25 +15,19 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaverse" textStyles="text-center" />
+      <TypingText title="| About Chess" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white"> Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the
+        <span className="font-extrabold text-white"> Chess</span> is a board game between two players. It is sometimes called
         <span className="font-extrabold text-white">
           {' '}
-          madness of the metaverse
-        </span>{' '}
-        of today, using only
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+          international chess or Western chess
+        </span>{' '}to distinguish it from related games,
+        such as
+        <span className="font-extrabold text-white"> xiangqi (Chinese chess) and shogi (Japanese chess).</span> The current form  of the game emerged in Spain and the rest of Southern Europe during the second half of the 15th century, after evolving from
+        <span className="font-extrabold text-white"> chaturanga </span>   a similar but much older game of Indian origin. Today, chess is one of the world's most popular games, played by millions of people worldwide.
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
