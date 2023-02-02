@@ -1,28 +1,33 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/Nakamura_Hikaru.jpg',
+    title: 'Hikaru Nakamura',
+    channelUrl: 'https://www.twitch.tv/gmhikaru',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/botezsisters.jpg',
+    title: 'Botez Sisters',
+    channelUrl: 'https://www.twitch.tv/botezlive',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/gothamChess.png',
+    title: 'Gotham Chess',
+    channelUrl: 'https://www.youtube.com/@GothamChess',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/agadmator.jpg',
+    title: 'Agadmator',
+    channelUrl: 'https://www.youtube.com/@agadmator',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/Anna_Cramling.jpg',
+    title: 'Anna Cramling',
+    channelUrl: 'https://www.twitch.tv/annacramling',
   },
 ];
 
