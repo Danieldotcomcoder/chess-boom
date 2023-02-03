@@ -39,16 +39,16 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/latest-news-icon.png',
+    title: 'Chess.com News',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'We have the latest updates from the chess world for you',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/chessnews1.jpg',
+    title: 'chessnews.com',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Stay updated for whats going on in chess',
   },
 ];
 
