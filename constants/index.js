@@ -1,4 +1,4 @@
-export const exploreWorlds = [
+export const chessStreamers = [
   {
     id: 'world-1',
     imgUrl: '/Nakamura_Hikaru.jpg',
@@ -32,9 +32,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Go to a good chess website or download the app.I suggest chess.com, lichess.com or chess24.com',
+  'Sign up and Login to start your journey',
+  'Immediately you can start learning or playing against players from all around the world',
 ];
 
 export const newFeatures = [

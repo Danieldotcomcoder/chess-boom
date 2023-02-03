@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { TypingText, ExploreCard, TitleText } from '../components';
 import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
-import { exploreWorlds } from '../constants';
+import { chessStreamers } from '../constants';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -32,7 +32,7 @@ const Explore = () => {
 )} textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
+          {chessStreamers.map((world, index) => (
             <ExploreCard
               key={world.id}
               {...world}
