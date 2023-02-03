@@ -21,17 +21,18 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+            Danny Rensch
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+            Chess.com CCO
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
+          Daniel Rensch is an American chess player,
+          International Master, event organizer,
+          lecturer and commentator. He is the president of American Chess Events
+          LLC and Chief Chess Officer of Chess.com
         </p>
       </motion.div>
 
@@ -40,21 +41,15 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
-          alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          src="/dannyRensch.jpg"
+          alt="DannyRensch"
+          className="w-full lg:h-[600px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
 
         <motion.div
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
-        >
-          <img
-            src="/stamp.png"
-            alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
-          />
-        </motion.div>
+        />
       </motion.div>
     </motion.div>
   </section>
