@@ -14,26 +14,21 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div
-        className="flex justify-center items-center flex-col relative z-10"
+        className="flex justify-center items-center flex-col relative"
       >
-        <motion.h1 variants={textVariant(0.7)}
-          className={styles.heroHeading}
+        <motion.h1 variants={textVariant(1)}
+          className={`${styles.heroHeading}`}
         >
-          Chess
+          Chess BOOM
         </motion.h1>
-        <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row jusitfy-ccenter items-center"
-        >
-          <h1 className={styles.heroHeading}>BOOM</h1>
-        </motion.div>
+
       </div>
       <motion.div
         variants={slideIn('right', 'tween, 0.2,1 ')}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div
-          className="absolute w-full h-[-300px] hero-gradient rounded-t1-[140px] z-[0] -top-[30px]"
+          className="absolute w-full h-[-250px] hero-gradient rounded-t1-[140px] z-[0] -top-[30px]"
         />
         <img
           src="/chessboard.jpg"
@@ -45,14 +40,7 @@ const Hero = () => (
 
           <div
             className=" w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10"
-          >
-            <img
-              src="/stamp.png"
-              alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h[155px] h-[100px] object-contain"
-            />
-
-          </div>
+          />
         </a>
       </motion.div>
     </motion.div>
