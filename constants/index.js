@@ -54,22 +54,18 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/magnuscarlsen.jfif',
+    title: 'Magnus Carlsen decides not to defend his title in 2023',
+    url: 'https://www.denver7.com/news/national/world-champion-chess-player-says-he-wont-defend-title#:~:text=Magnus%20Carlsen%20said%20he%20will,as%20world%20champion%20since%202013.',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Magnus Carlsen said he will not defend his chess world title in 2023, telling the games sanctioning body, “I am not motivated to play another match.” Carlsen announced his decision on his new podcast “The Magnus Effect.” He has held the crown as world champion since 2013',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/nepovsding.png',
+    title: 'The 2023 world championship match will be between Ian Nepomniachtchi and Ding Liren',
+    url: 'https://www.chess.com/news/view/astana-to-host-ding-nepomniachtchi-fide-world-chess-championship-match',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'The 2023 FIDE World Chess Championship match between GMs Ding Liren and Ian Nepomniachtchi will take place April 7-May 1, 2023 in Astana, Kazakhstan. The news was announced on Thursday by the International Chess Federation.',
   },
 ];
 
