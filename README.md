@@ -1,5 +1,5 @@
 # Chess Boom
- Chess is going through a huge time, more and more people are playing ,chess streamers are attracting huge amounts of veiwers, and the game is gaining popularity day after day.So, I decided to make this cool website to introduce people to the world of chess. 
+ Chess is going through a huge time, more and more people are playing, chess streamers are attracting huge amounts of veiwers, and the game is gaining popularity day after day.So, I decided to make this cool website to introduce people to the world of chess. 
 
 ## Built With
 - NextJs
