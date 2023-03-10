@@ -24,8 +24,6 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 ## acknowledgement
 
 I used this amazing Figma [Design](https://www.figma.com/file/EyzNoOFak1Nb1bBx9ZKI7E?node-id=1%3A4&t=73paKh97ZpNW2kkV-0)
