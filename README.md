@@ -12,7 +12,7 @@
 
 [Link](https://main--aesthetic-yeot-cc6388.netlify.app/)
 
-## Authors
+## Author
 
  Daniel Shdeed
 
